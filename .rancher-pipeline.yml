@@ -1,0 +1,7 @@
+stages:
+- name: test
+  steps:
+  - runScriptConfig:
+      image: golang:latest
+      shellScript: go version
+timeout: 60
